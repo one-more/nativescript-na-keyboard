@@ -19,7 +19,7 @@
     "NativeScript",
     "Keyboard",
     "Observer",
-    "UnderKeyboard",
+    "KWKeyboardListener",
     "Nordling Art"
   ],
   "author": {

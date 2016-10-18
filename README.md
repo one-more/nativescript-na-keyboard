@@ -38,6 +38,10 @@ To observe keyboard activity.
 
 ## History
 
+#### Version 1.0.1 (18 October 2016)
+
+- Added to **npm**.
+
 #### Version 1.0.0 (18 October 2016)
 
 - `on()` method for observing keyboard activity.

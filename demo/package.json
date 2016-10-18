@@ -1,0 +1,19 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.demo",
+    "tns-ios": {
+      "version": "2.3.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-na-keyboard": "file:..",
+    "tns-core-modules": "2.3.0"
+  },
+  "scripts": {
+     "ios": "xcproj --project platforms/ios/demo.xcodeproj touch; xcproj --project platforms/ios/Pods/Pods.xcodeproj touch; tns livesync ios --watch --emulator"
+  }
+}

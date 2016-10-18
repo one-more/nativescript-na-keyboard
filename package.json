@@ -1,0 +1,35 @@
+{
+  "name": "nativescript-na-keyboard",
+  "version": "1.0.0",
+  "description": "A NativeScript keyboard observer",
+  "main": "keyboard.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.7.0"
+    },
+    "tns-ios": {
+      "version": "2.3.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordlingart/nativescript-na-keyboard.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Keyboard",
+    "Observer",
+    "UnderKeyboard",
+    "Nordling Art"
+  ],
+  "author": {
+    "name": "Filip Nordling",
+    "email": "nordlingfilip@gmail.com"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "c7e662a2781c74949c9c941c62077cf66b97b000",
+  "bugs": {
+    "url": "https://github.com/nordlingart/nativescript-na-keyboard/issues"
+  },
+  "homepage": "https://github.com/nordlingart/nativescript-na-keyboard#readme"
+}

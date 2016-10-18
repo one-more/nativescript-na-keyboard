@@ -2,7 +2,7 @@
 
 **NOTE! Android is currently not supported.**
 
-A NativeScript keyboard observer that utilizes the CocoaPod [KWKeyboardListener](https://github.com/kwarter/KWKeyboardListener) for iOS.
+A NativeScript keyboard observer that utilizes [KWKeyboardListener](https://github.com/kwarter/KWKeyboardListener) for iOS.
 
 ## Installation
 
@@ -27,7 +27,7 @@ NAKeyboard.on("focus blur", function(eventData) {
 
 To observe keyboard activity.
 
-`init(eventTypes, callback)`
+`on(eventTypes, callback)`
 
 - **eventTypes** - Can be either "focus" or "blur". If both, separate them with a blankspace (i.e. "focus blur").
 - **callback** - The callback function. Available parameter is "eventData" which is an object that includes `eventName` and `keyboardFrame`.
@@ -45,7 +45,7 @@ To observe keyboard activity.
 ## Credits
 
 - [NordlingArt](https://github.com/NordlingArt)
-- [kwarter](https://github.com/kwarter/KWKeyboardListener) (for providing the CocoaPod **KWKeyboardListener**)
+- [kwarter](https://github.com/kwarter/) (for providing **[KWKeyboardListener](https://github.com/kwarter/KWKeyboardListener)**)
 
 ## License
 

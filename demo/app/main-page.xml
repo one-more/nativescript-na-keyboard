@@ -1,9 +1,11 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
   
-  <GridLayout>
-    <StackLayout horizontalAlignment="center" verticalAlignment="center">
+  <GridLayout rows="*, auto, *">
+    <Button row="1" text="Check keyboard state" tap="showKeyboardState" />
+    
+    <StackLayout row="2" horizontalAlignment="center" verticalAlignment="bottom" marginBottom="20">
       <Label text="Keyboard observer" />
-      <TextField hint="Write something..." id="inputText" />
+      <TextField hint="Type something..." id="inputText" />
     </StackLayout>
   </GridLayout>
   

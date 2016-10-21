@@ -10,7 +10,7 @@ NAKeyboard.on = function(eventTypes, callback) {
     var eventType;
     
     eventTypes.forEach(function(value) {
-      if((opening && value === "focus") || (closing && value === "blur")) eventType = value;
+      if((opening && value === "open") || (closing && value === "close")) eventType = value;
     });
     
     if(eventType) {
@@ -25,6 +25,15 @@ NAKeyboard.on = function(eventTypes, callback) {
       callback(eventData);
     }
   });
+};
+
+NAKeyboard.keyboardVisible = function() {
+  return KWKeyboardListener.sharedInstance().keyboardVisible;
+};
+
+NAKeyboard.setAvoidingView = function(view) {
+  view = view.ios;
+  IHKeyboardAvoiding.setAvoidingView(view);
 };
 
 module.exports = NAKeyboard;

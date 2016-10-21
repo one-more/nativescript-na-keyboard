@@ -9,7 +9,17 @@ exports.navigatingTo = function(args) {
   page = args.object;
   page.bindingContext = pageData;
   
-  NAKeyboard.on("focus blur", function(eventData) {
+  var inputText = page.getViewById("inputText");
+  NAKeyboard.setAvoidingView(inputText);
+  
+  NAKeyboard.on("open close", function(eventData) {
     console.log(eventData.eventName);
   });
+};
+
+exports.showKeyboardState = function(args) {
+  var isVisible = NAKeyboard.keyboardVisible();
+  
+  if(isVisible) console.log("opened");
+    else console.log("closed");
 };

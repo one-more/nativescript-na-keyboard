@@ -1,6 +1,10 @@
 # NativeScript NA Keyboard plugin
 
-**NOTE! Android is currently not supported.**
+**The development of this repository has been canceled. Feel free to fork and continue yourself. Thanks!**
+
+-------
+
+**NOTE! Android is not supported.**
 
 A NativeScript keyboard observer that utilizes [KWKeyboardListener](https://github.com/kwarter/KWKeyboardListener) for iOS.
 

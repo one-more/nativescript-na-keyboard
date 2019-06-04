@@ -2,7 +2,7 @@
   "name": "nativescript-na-keyboard",
   "version": "1.0.1",
   "description": "A NativeScript keyboard observer",
-  "main": "keyboard.js",
+  "main": "keyboard",
   "nativescript": {
     "platforms": {
       "ios": "1.7.0"

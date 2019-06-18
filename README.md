@@ -1,7 +1,4 @@
 # NativeScript NA Keyboard plugin
-
-**The development of this repository has been canceled. Feel free to fork and continue yourself. Thanks!**
-
 -------
 
 **NOTE! Android is not supported.**

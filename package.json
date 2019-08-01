@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-na-keyboard",
+  "name": "nativescript-na-keyboard-plugin",
   "version": "1.0.1",
   "description": "A NativeScript keyboard observer",
   "main": "keyboard",
